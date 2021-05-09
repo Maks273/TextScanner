@@ -3,19 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2BE55F26458B9300DD946D /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2BE55E26458B9300DD946D /* NotificationNameExtension.swift */; };
 		2DA252402642D08100C7B1A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA2523F2642D08100C7B1A4 /* AppDelegate.swift */; };
 		2DA252422642D08100C7B1A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA252412642D08100C7B1A4 /* SceneDelegate.swift */; };
 		2DA252442642D08100C7B1A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA252432642D08100C7B1A4 /* ViewController.swift */; };
 		2DA252472642D08100C7B1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA252452642D08100C7B1A4 /* Main.storyboard */; };
 		2DA252492642D08300C7B1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA252482642D08300C7B1A4 /* Assets.xcassets */; };
 		2DA2524C2642D08300C7B1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA2524A2642D08300C7B1A4 /* LaunchScreen.storyboard */; };
+		2DA252602642D39F00C7B1A4 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA252582642D39200C7B1A4 /* Roboto-Black.ttf */; };
+		2DA252612642D3A200C7B1A4 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA2525B2642D39300C7B1A4 /* Roboto-BlackItalic.ttf */; };
+		2DA252622642D3A600C7B1A4 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA2525E2642D39300C7B1A4 /* Roboto-BoldItalic.ttf */; };
+		2DA252632642D3A600C7B1A4 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA252592642D39200C7B1A4 /* Roboto-ThinItalic.ttf */; };
+		2DA252642642D3A600C7B1A4 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA2525A2642D39300C7B1A4 /* Roboto-Italic.ttf */; };
+		2DA252652642D3A600C7B1A4 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA2525F2642D39300C7B1A4 /* Roboto-Medium.ttf */; };
+		2DA252662642D3A600C7B1A4 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA252572642D39200C7B1A4 /* Roboto-Regular.ttf */; };
+		2DA252672642D3A600C7B1A4 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA2525D2642D39300C7B1A4 /* Roboto-LightItalic.ttf */; };
+		2DA252682642D3A600C7B1A4 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA252542642D39200C7B1A4 /* Roboto-MediumItalic.ttf */; };
+		2DA252692642D3A600C7B1A4 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA2525C2642D39300C7B1A4 /* Roboto-Light.ttf */; };
+		2DA2526A2642D3A600C7B1A4 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA252552642D39200C7B1A4 /* Roboto-Thin.ttf */; };
+		2DA2526B2642D3A600C7B1A4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA252562642D39200C7B1A4 /* Roboto-Bold.ttf */; };
+		2DA2526E2642D48F00C7B1A4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA2526D2642D48F00C7B1A4 /* UIViewExtension.swift */; };
+		2DA252702642D50700C7B1A4 /* CGColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA2526F2642D50700C7B1A4 /* CGColorExtension.swift */; };
+		2DA252732642D93200C7B1A4 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA252722642D93200C7B1A4 /* ScanViewController.swift */; };
+		2DA2527526431FFF00C7B1A4 /* ScanVCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA2527426431FFF00C7B1A4 /* ScanVCHelper.swift */; };
+		2DA252782643DAFC00C7B1A4 /* FullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA252772643DAFC00C7B1A4 /* FullScreenViewController.swift */; };
+		2DA2527A2643F25900C7B1A4 /* RecognizedTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA252792643F25900C7B1A4 /* RecognizedTextViewController.swift */; };
+		2DC1B2F3264568EF00D14E2D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1B2F2264568EF00D14E2D /* UIViewControllerExtension.swift */; };
+		2DD2037C26440136008D35CD /* RecognizedTextVCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2037B26440136008D35CD /* RecognizedTextVCHelper.swift */; };
+		2DD2037F2644297B008D35CD /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2037E2644297B008D35CD /* AudioView.swift */; };
+		2DD2038126442987008D35CD /* AudioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD2038026442987008D35CD /* AudioView.xib */; };
+		ACCFBBE51554F1FFBD298A76 /* Pods_TextScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FBEBF9CF11BFC86D555CD6 /* Pods_TextScanner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05BC7305C75FFBFFBA072FF0 /* Pods-TextScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextScanner.debug.xcconfig"; path = "Target Support Files/Pods-TextScanner/Pods-TextScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		2D2BE55E26458B9300DD946D /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
 		2DA2523C2642D08100C7B1A4 /* TextScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA2523F2642D08100C7B1A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DA252412642D08100C7B1A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +50,30 @@
 		2DA252482642D08300C7B1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DA2524B2642D08300C7B1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DA2524D2642D08300C7B1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA252542642D39200C7B1A4 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2DA252552642D39200C7B1A4 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		2DA252562642D39200C7B1A4 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		2DA252572642D39200C7B1A4 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		2DA252582642D39200C7B1A4 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		2DA252592642D39200C7B1A4 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2DA2525A2642D39300C7B1A4 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		2DA2525B2642D39300C7B1A4 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		2DA2525C2642D39300C7B1A4 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		2DA2525D2642D39300C7B1A4 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		2DA2525E2642D39300C7B1A4 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2DA2525F2642D39300C7B1A4 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		2DA2526D2642D48F00C7B1A4 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		2DA2526F2642D50700C7B1A4 /* CGColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColorExtension.swift; sourceTree = "<group>"; };
+		2DA252722642D93200C7B1A4 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		2DA2527426431FFF00C7B1A4 /* ScanVCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanVCHelper.swift; sourceTree = "<group>"; };
+		2DA252772643DAFC00C7B1A4 /* FullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenViewController.swift; sourceTree = "<group>"; };
+		2DA252792643F25900C7B1A4 /* RecognizedTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizedTextViewController.swift; sourceTree = "<group>"; };
+		2DC1B2F2264568EF00D14E2D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		2DD2037B26440136008D35CD /* RecognizedTextVCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizedTextVCHelper.swift; sourceTree = "<group>"; };
+		2DD2037E2644297B008D35CD /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
+		2DD2038026442987008D35CD /* AudioView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioView.xib; sourceTree = "<group>"; };
+		6F1B717FAA6BEAC64CA903DA /* Pods-TextScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextScanner.release.xcconfig"; path = "Target Support Files/Pods-TextScanner/Pods-TextScanner.release.xcconfig"; sourceTree = "<group>"; };
+		90FBEBF9CF11BFC86D555CD6 /* Pods_TextScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACCFBBE51554F1FFBD298A76 /* Pods_TextScanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26A02FF6C9C3CFC7FDB13551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90FBEBF9CF11BFC86D555CD6 /* Pods_TextScanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2DA252332642D08100C7B1A4 = {
 			isa = PBXGroup;
 			children = (
 				2DA2523E2642D08100C7B1A4 /* TextScanner */,
 				2DA2523D2642D08100C7B1A4 /* Products */,
+				9E0DF1B7ADA62D3A6FB5B248 /* Pods */,
+				26A02FF6C9C3CFC7FDB13551 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +117,95 @@
 		2DA2523E2642D08100C7B1A4 /* TextScanner */ = {
 			isa = PBXGroup;
 			children = (
+				2DD2037D2644296C008D35CD /* Views */,
+				2DA2526C2642D48400C7B1A4 /* Extensions */,
+				2DA252532642D38700C7B1A4 /* Fonts */,
 				2DA2523F2642D08100C7B1A4 /* AppDelegate.swift */,
 				2DA252412642D08100C7B1A4 /* SceneDelegate.swift */,
-				2DA252432642D08100C7B1A4 /* ViewController.swift */,
+				2DA252712642D5BF00C7B1A4 /* ViewControllers */,
 				2DA252452642D08100C7B1A4 /* Main.storyboard */,
 				2DA252482642D08300C7B1A4 /* Assets.xcassets */,
 				2DA2524A2642D08300C7B1A4 /* LaunchScreen.storyboard */,
 				2DA2524D2642D08300C7B1A4 /* Info.plist */,
 			);
 			path = TextScanner;
+			sourceTree = "<group>";
+		};
+		2DA252532642D38700C7B1A4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2DA252582642D39200C7B1A4 /* Roboto-Black.ttf */,
+				2DA2525B2642D39300C7B1A4 /* Roboto-BlackItalic.ttf */,
+				2DA252562642D39200C7B1A4 /* Roboto-Bold.ttf */,
+				2DA2525E2642D39300C7B1A4 /* Roboto-BoldItalic.ttf */,
+				2DA2525A2642D39300C7B1A4 /* Roboto-Italic.ttf */,
+				2DA2525C2642D39300C7B1A4 /* Roboto-Light.ttf */,
+				2DA2525D2642D39300C7B1A4 /* Roboto-LightItalic.ttf */,
+				2DA2525F2642D39300C7B1A4 /* Roboto-Medium.ttf */,
+				2DA252542642D39200C7B1A4 /* Roboto-MediumItalic.ttf */,
+				2DA252572642D39200C7B1A4 /* Roboto-Regular.ttf */,
+				2DA252552642D39200C7B1A4 /* Roboto-Thin.ttf */,
+				2DA252592642D39200C7B1A4 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2DA2526C2642D48400C7B1A4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DA2526D2642D48F00C7B1A4 /* UIViewExtension.swift */,
+				2DA2526F2642D50700C7B1A4 /* CGColorExtension.swift */,
+				2DC1B2F2264568EF00D14E2D /* UIViewControllerExtension.swift */,
+				2D2BE55E26458B9300DD946D /* NotificationNameExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2DA252712642D5BF00C7B1A4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2DA252432642D08100C7B1A4 /* ViewController.swift */,
+				2DA252762643200400C7B1A4 /* ScanViewController */,
+				2DA252772643DAFC00C7B1A4 /* FullScreenViewController.swift */,
+				2DD2037A26440126008D35CD /* RecognizedTextViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2DA252762643200400C7B1A4 /* ScanViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DA2527426431FFF00C7B1A4 /* ScanVCHelper.swift */,
+				2DA252722642D93200C7B1A4 /* ScanViewController.swift */,
+			);
+			path = ScanViewController;
+			sourceTree = "<group>";
+		};
+		2DD2037A26440126008D35CD /* RecognizedTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2DA252792643F25900C7B1A4 /* RecognizedTextViewController.swift */,
+				2DD2037B26440136008D35CD /* RecognizedTextVCHelper.swift */,
+			);
+			path = RecognizedTextViewController;
+			sourceTree = "<group>";
+		};
+		2DD2037D2644296C008D35CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DD2037E2644297B008D35CD /* AudioView.swift */,
+				2DD2038026442987008D35CD /* AudioView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E0DF1B7ADA62D3A6FB5B248 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05BC7305C75FFBFFBA072FF0 /* Pods-TextScanner.debug.xcconfig */,
+				6F1B717FAA6BEAC64CA903DA /* Pods-TextScanner.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DA252502642D08300C7B1A4 /* Build configuration list for PBXNativeTarget "TextScanner" */;
 			buildPhases = (
+				3EF09C77FC4B8DAED6230A84 /* [CP] Check Pods Manifest.lock */,
 				2DA252382642D08100C7B1A4 /* Sources */,
 				2DA252392642D08100C7B1A4 /* Frameworks */,
 				2DA2523A2642D08100C7B1A4 /* Resources */,
+				C2E5DB2A0C7FFDA5A1125D42 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +267,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DA2526A2642D3A600C7B1A4 /* Roboto-Thin.ttf in Resources */,
+				2DA252622642D3A600C7B1A4 /* Roboto-BoldItalic.ttf in Resources */,
+				2DA2526B2642D3A600C7B1A4 /* Roboto-Bold.ttf in Resources */,
+				2DA252672642D3A600C7B1A4 /* Roboto-LightItalic.ttf in Resources */,
 				2DA2524C2642D08300C7B1A4 /* LaunchScreen.storyboard in Resources */,
+				2DA252662642D3A600C7B1A4 /* Roboto-Regular.ttf in Resources */,
+				2DA252682642D3A600C7B1A4 /* Roboto-MediumItalic.ttf in Resources */,
 				2DA252492642D08300C7B1A4 /* Assets.xcassets in Resources */,
+				2DA252632642D3A600C7B1A4 /* Roboto-ThinItalic.ttf in Resources */,
+				2DA252612642D3A200C7B1A4 /* Roboto-BlackItalic.ttf in Resources */,
+				2DA252642642D3A600C7B1A4 /* Roboto-Italic.ttf in Resources */,
+				2DD2038126442987008D35CD /* AudioView.xib in Resources */,
+				2DA252692642D3A600C7B1A4 /* Roboto-Light.ttf in Resources */,
 				2DA252472642D08100C7B1A4 /* Main.storyboard in Resources */,
+				2DA252602642D39F00C7B1A4 /* Roboto-Black.ttf in Resources */,
+				2DA252652642D3A600C7B1A4 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EF09C77FC4B8DAED6230A84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextScanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E5DB2A0C7FFDA5A1125D42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextScanner/Pods-TextScanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextScanner/Pods-TextScanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextScanner/Pods-TextScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2DA252382642D08100C7B1A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD2037F2644297B008D35CD /* AudioView.swift in Sources */,
+				2DA252702642D50700C7B1A4 /* CGColorExtension.swift in Sources */,
+				2DD2037C26440136008D35CD /* RecognizedTextVCHelper.swift in Sources */,
 				2DA252442642D08100C7B1A4 /* ViewController.swift in Sources */,
 				2DA252402642D08100C7B1A4 /* AppDelegate.swift in Sources */,
+				2DA252782643DAFC00C7B1A4 /* FullScreenViewController.swift in Sources */,
+				2DA2527526431FFF00C7B1A4 /* ScanVCHelper.swift in Sources */,
+				2DA2526E2642D48F00C7B1A4 /* UIViewExtension.swift in Sources */,
+				2DC1B2F3264568EF00D14E2D /* UIViewControllerExtension.swift in Sources */,
+				2D2BE55F26458B9300DD946D /* NotificationNameExtension.swift in Sources */,
 				2DA252422642D08100C7B1A4 /* SceneDelegate.swift in Sources */,
+				2DA2527A2643F25900C7B1A4 /* RecognizedTextViewController.swift in Sources */,
+				2DA252732642D93200C7B1A4 /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +491,14 @@
 		};
 		2DA252512642D08300C7B1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05BC7305C75FFBFFBA072FF0 /* Pods-TextScanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HP792V2S63;
 				INFOPLIST_FILE = TextScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +512,14 @@
 		};
 		2DA252522642D08300C7B1A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F1B717FAA6BEAC64CA903DA /* Pods-TextScanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HP792V2S63;
 				INFOPLIST_FILE = TextScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
